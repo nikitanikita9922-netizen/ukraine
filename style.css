@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1ea;
+  color: #2f2f2f;
+}
+
+header {
+  background: linear-gradient(120deg, #2e7d32, #6d4c41);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+nav {
+  background: #1b5e20;
+  display: flex;
+  justify-content: flex-start; 
+  padding-left: 20px;     
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #43a047;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.img {
+  width: 32%;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.inline-img {
+  text-align: center;
+}
+
+.inline-img img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.inline-img img:hover {
+  transform: scale(1.05);
+}
+
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h3 {
+  color: #1b5e20;
+}
+
+footer {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.right-images{
+    position: absolute;
+    right: 20px;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right-images img{
+    width: 200px;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.right-images img:hover{
+    transform: scale(1.08);
+}
+.big-photo{
+    width: 85%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 18px;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.big-photo:hover{
+    transform: scale(1.03);
+}
+.video-box{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-video{
+    width: 85%;
+    max-width: 950px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+}
